@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    background-color: #f1f3f4;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Google Search */
+.search-container {
+    text-align: center;
+}
+
+.google-logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4285F4;
+}
+
+/* Bookmark Section */
+.bookmark-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     margin: 10px; 
+}
+
+.bookmark-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Floating Add Button */
+.add-bookmark-btn {
+    position: fixed;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 1;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add-bookmark-btn:nth-of-type(1) {
+    left: 20px;
+}
+
+.add-bookmark-btn:nth-of-type(2) {
+    right: 40px;
+}
+
+/* Cursor Pointer */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-pointer:hover {
+    color: darkred;
+}
+
+a {
+  text-decoration: none;
+}
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown button:focus {
+  outline: none;
+}
+
+.bi {
+  font-size: 1.2rem;
+  color: #333; /* Customize icon color */
+}
+
