@@ -5,3 +5,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body{
     background-color: aqua !important;
 }
+
+/* General Styling */
+body {
+    background-color: #f1f3f4;
+    font-family: Arial, sans-serif;
+     overflow-x: hidden !important;
+}
+html, body {
+    overflow-x: hidden !important;
+}

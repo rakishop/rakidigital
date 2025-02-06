@@ -2,13 +2,14 @@
 
     <!-- Setting button at the Top -->
     <div class="dropdown settings-icon">
-        <button id="settingsButton" class="btn btn-secondary dropdown-toggle" type="button" aria-expanded="false">
+        <button id="settingsButton" class="btn btn-secondary dropdown-toggle" type="button" aria-expanded="false"
+            data-bs-auto-close="outside">
             ⚙️
         </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+            <li>
+                <a class="dropdown-item" href="#" (click)="openModal('bookmarkModal')">➕ Add Bookmark</a>
+            </li>
         </ul>
     </div>
 
@@ -55,7 +56,6 @@
 
             </div>
             <!-- Floating Add Button (Left) -->
-            <button class="add-bookmark-btn btn btn-primary" (click)="openModal('bookmarkModal')">+</button>
         </div>
 
         <!-- Right Bookmark List -->
@@ -88,7 +88,7 @@
                 </div>
             </div>
             <!-- Floating Add Button (Right) -->
-            <button class="add-bookmark-btn btn btn-primary" (click)="openModal('bookmarkModal')">+</button>
+            <!-- <button class="add-bookmark-btn btn btn-primary" (click)="openModal('bookmarkModal')">+</button> -->
         </div>
     </div>
 </div>
