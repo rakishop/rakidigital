@@ -92,3 +92,32 @@ a {
   color: #333; /* Customize icon color */
 }
 
+.settings-icon {
+  position: absolute;
+  top: 10px;
+  left: 550px;
+}
+
+#settingsButton {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-menu {
+    display: block; 
+    left: 0;
+    right: auto;
+}
+
+.dropdown-menu {
+  display: none; 
+  position: absolute; /* Position it within the dropdown container */
+  top: 100%; /* Position below the button */
+  left: -10px; /* Align to the left */
+  right: auto; /* Ensure it's not right-aligned */
+}
+
+.settings-icon {
+  position: relative; /* Position parent for child dropdown */
+}
