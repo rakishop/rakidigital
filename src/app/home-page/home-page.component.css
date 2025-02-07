@@ -19,6 +19,7 @@
 
 /* Bookmark Section */
 .bookmark-section {
+  background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;

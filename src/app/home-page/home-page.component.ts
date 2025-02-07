@@ -114,7 +114,8 @@ export class HomePageComponent {
   /** ✅ Google Search **/
   searchGoogle(query: string) {
     if (query.trim()) {
-      window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
+      //window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`);
+      window.location.href = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
     }
   }
 }
