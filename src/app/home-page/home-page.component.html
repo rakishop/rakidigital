@@ -31,7 +31,7 @@
         <div class="col-md-4">
             <div class="bookmark-section p-3 d-flex flex-wrap">
                 <div *ngFor="let bookmark of leftBookmarks" class="bookmark-item d-flex align-items-center">
-                    <a [href]="bookmark.url" target="_blank" class="me-2">{{ bookmark.name }}</a>
+                    <a [href]="bookmark.url" class="me-2">{{ bookmark.name }}</a>
 
                     <!-- Three-Dot Menu -->
                     <div class="dropdown">
@@ -63,7 +63,7 @@
             <div class="bookmark-section p-3 d-flex flex-wrap">
 
                 <div *ngFor="let bookmark of rightBookmarks" class="bookmark-item d-flex align-items-center">
-                    <a [href]="bookmark.url" target="_blank" class="me-2">{{ bookmark.name }}</a>
+                    <a [href]="bookmark.url" class="me-2">{{ bookmark.name }}</a>
                     <!-- Three-Dot Menu -->
                     <div class="dropdown">
                         <button class="btn btn-light p-0" type="button" id="dropdownMenuButton"
